@@ -1,0 +1,9 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`CreateVsfs2DSceneGridData1[
+      Optional[(Global`blur_)?NumericQ, 3], 
+      Global`l:({_, _})?numerics`NumericVectorQ:{0.8944271909999159, 
+        0.4472135954999579}] := (Needs["vsfs2d`"]; 
+      With[{Global`scene2d = vsfs2d`CreateExampleScene1[Global`blur, 
+          Global`l], Global`vars = {"c", "d", "a", "doriginal", "dsharp"}}, 
+       GridData`GridDataMakeFromArrays[Global`vars, Global`scene2d /@ 
+         Global`vars, 2]])]], "LanguageVersion" -> 10.4|>

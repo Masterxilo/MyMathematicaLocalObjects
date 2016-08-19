@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DTake[Global`s_Global`Scene2D, Global`coordinateBounds_], 
+     "Create a subscene of a given scene", Global`Scene2DMake[Global`s["l"], 
+      GridData`GDSubsetCoordinateBounds[Global`s["GridData"], 
+       Global`coordinateBounds]]]]], "LanguageVersion" -> 10.4|>

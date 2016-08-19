@@ -1,0 +1,10 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DEnergyfAt[Global`s_Global`Scene2D, 
+       Global`p:{_Integer, _Integer}, Global`weights:
+        Global`$SceneXEnergyWeightPattern] /; paul`Contains[
+       Global`Scene2DEnergyP[Global`s], Global`p], 
+     "Evaluate energy vector for a specific p", 
+     Global`SOPfAt[Global`Scene2DSparseOptimizationProblem[Global`s, 
+       Global`weights], Global`p], _?numerics`NumericVectorQ]]], 
+ "LanguageVersion" -> 10.4|>

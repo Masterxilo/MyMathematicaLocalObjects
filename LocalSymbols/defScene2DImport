@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DImport[Global`imageFilename_String, 
+       Global`l_:Global`Scene2DEnergyLightIntensityExampleParameters, 
+       Global`blur_Integer:8], "Import a png and make a scene", 
+      Global`Scene2DMakeFromImage[Import[Global`imageFilename], Global`l, 
+       Global`blur]]; ]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DGridDataNames[Global`s_Global`Scene2D], 
+      "The names of the Properties defined at each grid point", 
+      GridData`GDDataNames[Global`s["GridData"]]]; ]], 
+ "LanguageVersion" -> 10.4|>

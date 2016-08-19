@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DEnergyLightIntensity[Global`l:{_, _}, Global`n:{_, _}], 
+      "Scene2D lighting model. Symbolic and numeric", 
+      Max[Global`n . Global`l, 0.], Except[_List]]; ]], 
+ "LanguageVersion" -> 10.4|>

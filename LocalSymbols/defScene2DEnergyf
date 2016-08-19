@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DEnergyf[], "sop local objective", 
+     Global`SceneXEnergyf[Global`Scene2DEnergyColorDim, 
+      Global`Scene2DEnergyLightIntensity, 
+      Global`Scene2DEnergyLightIntensityParameterCount, 
+      Global`Scene2DDimension[]], {__}]]], "LanguageVersion" -> 10.4|>

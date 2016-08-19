@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DShowDistanceField[Global`s_Global`Scene2D, 
+      Global`which_String, Global`o___], "visualize scene distance field", 
+     paul`ShowDistanceField[GridData`GDSingleDatumToArray[
+       Global`s["GridData"], Global`which], Global`o, 
+      PerformanceGoal -> "Quality"]]]], "LanguageVersion" -> 10.4|>

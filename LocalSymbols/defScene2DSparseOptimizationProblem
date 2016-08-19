@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DSparseOptimizationProblem[Global`s_Global`Scene2D, 
+      Global`weights:Global`$SceneXEnergyWeightPattern], "create a sop for \
+optimizing a and d of this Scene2D. Depends on SparseOptimizationProblem`", 
+     With[{Global`sop = Global`SparseOptimizationProblemMake[
+         Global`Scene2DEnergyf[], Global`Scene2DEnergySelect[Global`s], 
+         Global`Scene2DEnergyP[Global`s], Global`Scene2DEnergyData[Global`s, 
+          Global`weights], Global`Scene2DEnergyY[Global`s]]}, 
+      Assert[numerics`MachineRealQ[Global`SOPEnergy[Global`sop]]]; 
+       Global`sop], _Global`SparseOptimizationProblem]]], 
+ "LanguageVersion" -> 10.4|>

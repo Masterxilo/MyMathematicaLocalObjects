@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DCoordinateBounds[Global`s_Global`Scene2D], 
+      "maximum extents on which scene points exist", 
+      GridData`GDCoordinateBounds[Global`s["GridData"]]]; ]], 
+ "LanguageVersion" -> 10.4|>

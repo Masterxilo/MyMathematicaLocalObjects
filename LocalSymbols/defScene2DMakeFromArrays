@@ -1,0 +1,9 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DMakeFromArrays[Global`l_, Global`data:
+       {(Global`a_)?numerics`NumericMatrixQ, (Global`d_)?
+         numerics`NumericMatrixQ, (Global`doriginal_)?
+         numerics`NumericMatrixQ, Global`c_ /; ArrayQ[Global`c, 3, 
+          NumericQ]}], "from pure data", Global`Scene2DMake[Global`l, 
+      GridData`GridDataMakeFromArrays[Global`Scene2DRequiredData, 
+       Global`data, 2]]]]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DMakeFromSparseOptimizationProblem[
+      Global`sop_Global`SparseOptimizationProblem], 
+     "after solving, convert back to a scene. Drop the weights", 
+     Global`Scene2DMakeFromEnergyData[Global`SOPDataAsRules[Global`sop]], 
+     _Global`Scene2D]]], "LanguageVersion" -> 10.4|>

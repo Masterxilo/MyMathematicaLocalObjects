@@ -1,0 +1,11 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DMakeFromEnergyData[Global`data:
+       Global`$SceneXEnergyDataPattern], "take linearized aribitrary data as \
+rules and produce a structured scene\n\nrestores only canonical arguments", 
+     With[{Global`ls = Array[Global`l, 
+         Global`Scene2DEnergyLightIntensityParameterCount]}, 
+      Global`Scene2DMakeFromArrays[Global`ls /. Global`data, 
+       Global`SceneXRevertAtomRuleFor[Global`data, 
+        Global`Scene2DEnergyColorDim]]], _Global`Scene2D]]], 
+ "LanguageVersion" -> 10.4|>

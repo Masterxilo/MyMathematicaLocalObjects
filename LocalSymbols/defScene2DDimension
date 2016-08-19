@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DDimension[___], "spatial dimensionality of the gridData", 
+      2]; ]], "LanguageVersion" -> 10.4|>

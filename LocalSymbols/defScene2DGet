@@ -1,0 +1,17 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DGet[Global`s:Global`Scene2D[
+         Global`f_FiniteMapping`FiniteMapping], "l"], 
+      "Retrieve various Properties of a scene", Global`f["l"]]; 
+     Global`Scene2DGet[Global`s:Global`Scene2D[
+         Global`f_FiniteMapping`FiniteMapping], "GridData"] := 
+      Global`f["GridData"]; Global`Scene2DGet[
+       Global`s:Global`Scene2D[Global`f_FiniteMapping`FiniteMapping], 
+       Global`p:{_Integer, _Integer}] := GridData`GDLookup[
+       Global`s["GridData"], Global`p]; 
+     Global`Scene2DGet[Global`s:Global`Scene2D[
+         Global`f_FiniteMapping`FiniteMapping], Global`d_String] := 
+      GridData`GDSingleDatumToArray[Global`f["GridData"], Global`d]; 
+     (Global`s:Global`Scene2D[__])["Properties"] := Global`Scene2DProperties[
+       Global`s]; (Global`s:Global`Scene2D[__])[Global`d__] := 
+      Global`Scene2DGet[Global`s, Global`d]]], "LanguageVersion" -> 10.4|>

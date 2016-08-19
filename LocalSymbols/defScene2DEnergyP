@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DEnergyP[Global`s_Global`Scene2D], 
+     "set of positions defining the objective", 
+     Global`SceneXEnergyPFromCoordinateBounds[Global`Scene2DCoordinateBounds[
+       Global`s]], {{_Integer, _Integer}..}]]], "LanguageVersion" -> 10.4|>

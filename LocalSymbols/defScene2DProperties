@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DProperties[Global`s_Global`Scene2D], 
+      "The names of all properties defined for this scene", 
+      Append[Global`Scene2DGridDataNames[Global`s], "l"]]; ]], 
+ "LanguageVersion" -> 10.4|>

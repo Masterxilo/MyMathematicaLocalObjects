@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DMake[Global`l_, Global`gd_GridData`GridData] /; 
+       ContainsAll[GridData`GDDataNames[Global`gd], {"a", "d", "doriginal", 
+          "c"}] && GridData`GDArrayDepth[Global`gd] === 2, 
+      "Make a Scene2D object from the internal representation components", 
+      paul`LetL[{Global`canonicalGd = GridData`GDDataSubset[Global`gd, 
+          Join[Global`Scene2DRequiredData, Complement[GridData`GDDataNames[
+             Global`gd], Global`Scene2DRequiredData]]], 
+        Global`f = FiniteMapping`FiniteMappingMakeFromLists[
+          {"l", "GridData"}, {Global`l, Global`canonicalGd}]}, 
+       Global`Scene2D[Global`f]]]; ]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DShowAlbedo[Global`s_Global`Scene2D], 
+     "Visualize surface brightness", Image[GridData`GDSingleDatumToArray[
+       Global`s["GridData"], "a"]]]]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DShowColor[Global`s_Global`Scene2D, 
+       Global`which_String:"c"], "Visualize color after lighting", 
+      Image[GridData`GDSingleDatumToArray[Global`s["GridData"], 
+        Global`which]]]; ]], "LanguageVersion" -> 10.4|>

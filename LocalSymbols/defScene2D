@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[paul`UnprotectClearAll[Global`Scene2D]; 
+     SetAttributes[Global`Scene2D, HoldAllComplete]; ]], 
+ "LanguageVersion" -> 10.4|>

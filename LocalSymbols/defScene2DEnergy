@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DEnergy[Global`s_Global`Scene2D, 
+      Global`weights:Global`$SceneXEnergyWeightPattern], 
+     "current energy of the scene", Global`SOPEnergy[
+      Global`Scene2DSparseOptimizationProblem[Global`s, Global`weights]], 
+     _Real]]], "LanguageVersion" -> 10.4|>

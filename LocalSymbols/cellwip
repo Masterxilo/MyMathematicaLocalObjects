@@ -1,0 +1,8 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[Cell[BoxData[RowBox[{"Persist", "[", 
+       RowBox[{"\"wip\"", ",", "\[IndentingNewLine]", 
+         RowBox[{RowBox[{"<<", "MyPackages`"}], ";", "\[IndentingNewLine]", 
+           RowBox[{RowBox[{"Scene2DMake1", "[", "]"}], "//", 
+             "Scene2DShow"}]}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+    CellChangeTimes -> {{3.680592870059658*^9, 3.680592879837598*^9}}]], 
+ "LanguageVersion" -> 10.4|>

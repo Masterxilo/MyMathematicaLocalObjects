@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Unprotect[FileNameJoin]; 
+     FileNameJoin[Global`a_String, Global`b_String] := 
+      FileNameJoin[{Global`a, Global`b}]; Protect[FileNameJoin]; ]], 
+ "LanguageVersion" -> 10.4|>

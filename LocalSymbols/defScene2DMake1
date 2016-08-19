@@ -1,0 +1,10 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DMake1[Global`l_:
+        Global`Scene2DEnergyLightIntensityExampleParameters, 
+       Global`blur_Integer:3], "Create the vsfs2d Demo scene 1.\n\nDepends on \
+\[IndentingNewLine]\[IndentingNewLine]CreateColoredDistanceFieldGridData.nb's \
+CreateVsfs2DSceneGridData1 function\[IndentingNewLine]\[IndentingNewLine]Note \
+that this requires the lighting model to match that of the vsfs2d library ", 
+      Global`Scene2DMake[Global`l, Global`CreateVsfs2DSceneGridData1[
+        Global`blur, Global`l]]]; ]], "LanguageVersion" -> 10.4|>

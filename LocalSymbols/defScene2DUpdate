@@ -1,0 +1,10 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DUpdate[Global`s1_Global`Scene2D, 
+       Global`s2_Global`Scene2D], "Prefer Scene2 data over s1.\nNote: loses \
+non-canonical (required) data elements", paul`LetL[
+       {Global`gd1c = GridData`GDDataSubset[Global`s1["GridData"], 
+          Global`Scene2DRequiredData], Global`gd2c = GridData`GDDataSubset[
+          Global`s2["GridData"], Global`Scene2DRequiredData]}, 
+       Global`Scene2DMake[Global`s2["l"], GridData`GDUpdate[Global`gd1c, 
+         Global`gd2c]]]]; ]], "LanguageVersion" -> 10.4|>

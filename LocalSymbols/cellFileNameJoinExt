@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[Cell[BoxData[RowBox[{"Persist", "[", 
+       RowBox[{"\"FileNameJoinExt\"", ",", "\[IndentingNewLine]", 
+         "\[IndentingNewLine]", RowBox[{RowBox[{"Unprotect", "@", 
+             "FileNameJoin"}], ";", "\[IndentingNewLine]", 
+           RowBox[{RowBox[{"FileNameJoin", "[", RowBox[{"a_String", ",", 
+                 "b_String"}], "]"}], ":=", RowBox[{"FileNameJoin", "@", 
+               RowBox[{"{", RowBox[{"a", ",", "b"}], "}"}]}]}], ";", 
+           "\[IndentingNewLine]", RowBox[{"Protect", "@", "FileNameJoin"}], 
+           ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+    CellChangeTimes -> {{3.6805685889863787*^9, 3.6805686568350487*^9}}]], 
+ "LanguageVersion" -> 10.4|>

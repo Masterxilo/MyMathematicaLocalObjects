@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`Scene2DMakeFromScene3DSlice[Global`s3d_Global`Scene3D, 
+      Global`height_Integer, Global`l_], 
+     "Take one section of a 3D scene. l will not match", 
+     paul`LetL[{Global`cbheight = Prepend[Most[Global`Scene3DCoordinateBounds[
+           Global`s3d]], {Global`height, Global`height}], 
+       Global`gd3d = GridData`GDSubsetCoordinateBounds[
+         Global`s3d["GridData"], Global`cbheight], 
+       Global`gd2d = GridData`GDRestDimension[Global`gd3d]}, 
+      Global`Scene2DMake[Global`l, Global`gd2d]]]]], 
+ "LanguageVersion" -> 10.4|>

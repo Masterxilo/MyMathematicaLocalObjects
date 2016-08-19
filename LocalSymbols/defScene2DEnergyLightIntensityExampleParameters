@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[
+    Global`Scene2DEnergyLightIntensityExampleParameters = 
+      Normalize[{1., 1.}]; ]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DShow[Global`s_Global`Scene2D], 
+      "Interactively visualizes various properties of a Scene2D object.", 
+      Manipulate[Switch[Global`which, "a", Framed[Global`Scene2DShowAlbedo[
+          Global`s]], "c", Framed[Global`Scene2DShowColor[Global`s]], 
+        "diffuse", Framed[Global`Scene2DShowColor[Global`s, "diffuse"]], 
+        "d" | "doriginal" | "dsharp", Global`Scene2DShowDistanceField[
+         Global`s, Global`which], "normalSharp", paul`ListNormalVectorPlot[
+         Global`s["normalSharp"]]], {Global`which, 
+        Global`Scene2DGridDataNames[Global`s]}, TrackedSymbols :> 
+        Global`which]]; ]], "LanguageVersion" -> 10.4|>

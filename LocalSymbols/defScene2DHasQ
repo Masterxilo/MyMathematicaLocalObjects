@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`Scene2DHasQ[Global`s_Global`Scene2D, Global`attrib_String], 
+      "whether the scene has the given property", 
+      paul`Contains[GridData`GDDataNames[Global`s["GridData"]], 
+       Global`attrib]]; ]], "LanguageVersion" -> 10.4|>
