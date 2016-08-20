@@ -1,0 +1,21 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[ClearAll[Global`NeedsDefined]; 
+     SetAttributes[Global`NeedsDefined, HoldAll]; 
+     Global`NeedsDefined::usage = "NeedDefined[s] Checks that s has some \
+Definitions, otherwise calls DepersistDef on the symbols name or string.\nUse \
+this within Persist[] blocks to declare dependencies.\n"; 
+     Global`NeedsDefined[Global`x_Symbol] := 
+      With[{Global`n = SymbolName[Unevaluated[Global`x]]}, 
+       Global`NeedsDefined[Global`n]]; 
+     Global`NeedsDefined[Global`x_String] /; Global`IsDefined[Global`x] || 
+        GeneralUtilities`Definitions[Global`x] =!= {} := Null; 
+     Global`NeedsDefined[Global`x_String] /; 
+        !TrueQ[Global`IsDefined[Global`x]] && GeneralUtilities`Definitions[
+          Global`x] === {} := (Global`IsDefined[Global`x] = True; 
+       Persist`DepersistDef[Global`x]); 
+     Global`NeedsDefined[Global`x:{___Symbol}] := Global`NeedsDefined /@ 
+       Unevaluated[Global`x]; Global`NeedsDefined[Global`x:{___String}] := 
+      Global`NeedsDefined /@ Global`x; 
+     Global`NeedsDefined[Global`x___Symbol] := Global`NeedsDefined[
+       {Global`x}]; Global`NeedsDefined[Global`x___String] := 
+      Global`NeedsDefined[{Global`x}]; ]], "LanguageVersion" -> 10.4|>

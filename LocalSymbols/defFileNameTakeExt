@@ -1,4 +1,0 @@
-<|"Type" -> Expression, "Version" -> 1, 
- "Data" -> Hold[HoldComplete[Unprotect[FileNameTake]; 
-     FileNameTake[Global`n_Integer] := FileNameTake[#1, Global`n] & ; 
-     Protect[FileNameTake]; ]], "LanguageVersion" -> 10.4|>

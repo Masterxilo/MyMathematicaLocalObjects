@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPDataAsRules[Global`SparseOptimizationProblem[Global`f_, 
+        Global`select_, Global`p_, Global`data_, Global`y_]], 
+      "one representation of data", Global`data]; ]], 
+ "LanguageVersion" -> 10.4|>

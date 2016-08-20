@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`$SceneXEnergyDataPattern = 
+     {(_Symbol[___] | _Symbol -> _?numerics`MachineRealQ)..}]], 
+ "LanguageVersion" -> 10.4|>

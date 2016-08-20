@@ -1,0 +1,11 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`SceneXRevertAtomRuleFor[Global`data:
+       Global`$SceneXEnergyDataPattern, Global`colorDim_Integer], "make \
+structure from flattened representation. Only works for dense arrays for \
+now.", With[{Global`bounds = Global`SceneXAtomRuleCoordinateBoundsFor[
+          Global`d, Global`data]}, {Global`coordFlat[Global`a, 
+         Global`bounds], Global`coordFlat[Global`d, Global`bounds], 
+        Global`coordFlat[Global`doriginal, Global`bounds], 
+        Global`coordRep[Global`c, Global`bounds, Global`colorDim]}] /. 
+      Global`data]]], "LanguageVersion" -> 10.4|>

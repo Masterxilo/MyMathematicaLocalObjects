@@ -1,0 +1,9 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`LocalObjectsToSaveExpressions[] := 
+     (Print[First[AbsoluteTiming[Global`r1 = Get /@ LocalObjects[]]]]; 
+      Global`localNameExpression = ({FileNameTake[First[#1], -1], 
+          Get[#1]} & ) /@ LocalObjects[]; Apply[Global`SaveExpression, 
+       Global`localNameExpression, {1}]; 
+      Print[First[AbsoluteTiming[Global`r2 = Global`LoadExpression /@ 
+           Global`SavedExpressions[]]]]; Sort[Global`r1] === 
+       Sort[Global`r2])]], "LanguageVersion" -> 10.4|>

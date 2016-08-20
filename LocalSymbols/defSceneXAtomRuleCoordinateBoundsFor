@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SceneXAtomRuleCoordinateBoundsFor[Global`s_Symbol, 
+       Global`data:Global`$SceneXEnergyDataPattern], 
+      "defined coordinateBounds", CoordinateBounds[
+       Global`SceneXAtomRulePositionsFor[Global`s, Global`data]], 
+      {{__Integer}...}]; ]], "LanguageVersion" -> 10.4|>

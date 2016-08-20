@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPGetY[Global`SparseOptimizationProblem[Global`f_, 
+        Global`select_, Global`p_, Global`data_, Global`y_]], 
+      "y variables optimized over", Global`y]; ]], "LanguageVersion" -> 10.4|>

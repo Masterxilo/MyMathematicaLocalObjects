@@ -1,0 +1,15 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[
+      Global`NotebookAllDeleteCells]; Global`load[Global`s_String, 
+       Global`id_String] := Module[{Global`c}, 
+       Global`NotebookAllDeleteCells[CellTags -> StringJoin[
+           "depersistedCell", Global`id]]; Global`c = Persist`DepersistCell[
+          Global`s]; If[Head[Global`c] === Cell, CellPrint[
+          Append[Global`c, CellTags -> StringJoin["depersistedCell", 
+             Global`id]]], CellPrint[Append[Global`MakeInputCell[
+            Unevaluated[Persist`Persist[Global`s, Null]]], 
+           CellTags -> StringJoin["depersistedCell", Global`id]]]]]; 
+     With[{Global`id = CreateUUID[]}, DynamicModule[{Global`name}, 
+       InputField[Dynamic[Global`name, {Automatic, 
+          (Global`load[#1, Global`id]; Global`name = #1; ) & }], String]]]]], 
+ "LanguageVersion" -> 10.4|>

@@ -1,3 +1,0 @@
-<|"Type" -> Expression, "Version" -> 1, 
- "Data" -> Hold[HoldComplete["this is just some test"; 
-     Plot[Sin[Global`x], {Global`x, 0, 1}]]], "LanguageVersion" -> 10.4|>

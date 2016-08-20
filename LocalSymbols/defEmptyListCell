@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`EmptyListCell[Global`t_String] := 
+     Cell[BoxData[RowBox[{"{", "}"}]], Global`t]]], 
+ "LanguageVersion" -> 10.4|>

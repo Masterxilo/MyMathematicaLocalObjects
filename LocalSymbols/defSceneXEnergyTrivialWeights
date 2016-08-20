@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`SceneXEnergyTrivialWeights[] := 
+      Table[1., Length[Global`SceneXEnergyWeightNames[]]]; ]], 
+ "LanguageVersion" -> 10.4|>

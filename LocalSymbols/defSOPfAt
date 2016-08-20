@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`SOPfAt[Global`sop_Global`SparseOptimizationProblem, Global`p_] /; 
+      paul`Contains[Global`SOPGetP[Global`sop], Global`p], 
+     "concrete energy at a p", Global`SOPFullyAbstractfAt[Global`sop, 
+       Global`p] /. Global`SOPDataAsRules[Global`sop], 
+     _?numerics`NumericVectorQ]]], "LanguageVersion" -> 10.4|>

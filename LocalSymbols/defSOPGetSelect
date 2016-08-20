@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPGetSelect[Global`SparseOptimizationProblem[Global`f_, 
+        Global`select_, Global`p_, Global`data_, Global`y_]], 
+      "global local selector", Global`select]; ]], "LanguageVersion" -> 10.4|>

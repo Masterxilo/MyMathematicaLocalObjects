@@ -1,13 +1,16 @@
 <|"Type" -> Expression, "Version" -> 1, 
- "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
-      Global`Scene2DEnergyData[Global`s_Global`Scene2D, 
-       Global`weights:Global`$SceneXEnergyWeightPattern:
-        Unevaluated[Global`$Scene2DEnergyDefaultWeights]], "linearized \
-version of all data (constant and subject to change) that defines the \
-sop\nincluding optimization weights\n\nDepends on SceneXEnergy.nb", 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[Global`Scene2D, 
+      Global`SceneXEnergyWeightPattern, Global`SceneXEnergyTrivialWeights, 
+      Global`SceneXEnergyWeightNames]; 
+     PackageDeveloper`RedefinePublicFunction[Global`Scene2DEnergyData[
+       Global`s_Global`Scene2D, Global`weights:
+         Global`SceneXEnergyWeightPattern[]:Unevaluated[
+         Global`SceneXEnergyTrivialWeights[]]], "linearized version of all \
+data (constant and subject to change) that defines the sop\nincluding \
+optimization weights\n\nDepends on SceneXEnergy.nb", 
       Join[Join[GridData`GDAsPairedAtomRules[Global`s["GridData"], 
          Global`$SceneXAtomRuleNameConversion], 
         Thread[Array[Global`l, 
            Global`Scene2DEnergyLightIntensityParameterCount] -> 
-          Global`s["l"]]], Thread[Global`$SceneXEnergyWeightNames -> 
+          Global`s["l"]]], Thread[Global`SceneXEnergyWeightNames[] -> 
          Global`weights]]]; ]], "LanguageVersion" -> 10.4|>

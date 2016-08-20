@@ -1,0 +1,16 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`SOPSolve[Global`p_Global`SparseOptimizationProblem], 
+     "construct a new SOP with less SOPEnergy", 
+     Catch[Module[{Global`energy, Global`sol, Global`nsop}, 
+       Check[Global`sol = FindMinimum[Global`SOPObjectiveExpression[
+             Global`p], Apply[List, Global`SOPYData[Global`p], {1}]]; , 
+         Throw[$Failed]]; {Global`energy, Global`sol} = Global`sol; 
+        Global`nsop = Global`SparseOptimizationProblemMake[
+          Global`SOPGetF[Global`p], Global`SOPGetSelect[Global`p], 
+          Global`SOPGetP[Global`p], paul`UpdateRuleList[Global`SOPDataAsRules[
+            Global`p], Global`sol], Global`SOPGetY[Global`p]]; 
+        Assert[numerics`ApproximatelyEqual[Global`energy, 
+          Global`SOPEnergy[Global`nsop]]]; Global`nsop]], 
+     _Global`SparseOptimizationProblem | $Failed]]], 
+ "LanguageVersion" -> 10.4|>

@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPObjectiveExpression[
+       Global`p_Global`SparseOptimizationProblem], 
+      "norm2 of objective vector", numerics`Norm2[
+       Flatten[Global`SOPObjectiveVector[Global`p]]]]; ]], 
+ "LanguageVersion" -> 10.4|>

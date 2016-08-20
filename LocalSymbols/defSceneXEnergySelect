@@ -1,0 +1,17 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[
+      Global`SceneXEnergyWeightNames]; 
+     PackageDeveloper`RedefinePublicFunction[Global`SceneXEnergySelect[
+       Global`dimension:2 | 3, Global`lightIntensityParameterCount_Integer, 
+       Global`colorDim_Integer], "constructs the SOP selection function", 
+      Module[{Global`select}, Global`select[Global`position:
+           {_Integer, _Integer}] := Join[{}, paul`IdentityRule /@ 
+           Array[Global`l, Global`lightIntensityParameterCount], 
+          paul`IdentityRule /@ Global`SceneXEnergyWeightNames[], 
+          Flatten[(Array[Function[{Global`x, Global`y}, #1[{Global`x, 
+                  Global`y}] -> #1[Global`position + {Global`x, Global`y}]], 
+              Table[3, 2], {-1, -1}] & ) /@ {Global`doriginal, Global`d, 
+             Global`a}, 2], Flatten[Array[Table[Global`c[{##1}, Global`i] -> 
+               Global`c[Global`position + {##1}, Global`i], 
+              {Global`i, Global`colorDim}] & , Table[3, 2], {-1, -1}], 3]]; 
+        Global`select]]; ]], "LanguageVersion" -> 10.4|>

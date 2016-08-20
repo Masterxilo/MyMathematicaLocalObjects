@@ -1,0 +1,9 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`SaveExpression[Global`name_String, 
+       Global`e_] := (Put[Global`e, StringJoin[FileNameJoin[
+         Global`$SavedExpressionsBase, Global`name], ".m"]]); 
+     Global`LoadExpression[Global`name_String] := 
+      Get[StringJoin[FileNameJoin[Global`$SavedExpressionsBase, Global`name], 
+        ".m"]]; Global`SavedExpressions[] := FileBaseName /@ 
+       FileNames["*", Global`$SavedExpressionsBase]]], 
+ "LanguageVersion" -> 10.4|>

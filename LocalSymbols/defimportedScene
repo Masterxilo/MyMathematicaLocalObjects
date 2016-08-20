@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`importedScene = 
+     Global`Scene2DImport["trivialScenePointInCenter.PNG", 
+      Global`Scene2DEnergyLightIntensityExampleParameters, 0]]], 
+ "LanguageVersion" -> 10.4|>

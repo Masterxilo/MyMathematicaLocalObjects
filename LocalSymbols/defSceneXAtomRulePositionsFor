@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SceneXAtomRulePositionsFor[Global`s_Symbol, 
+       Global`data:Global`$SceneXEnergyDataPattern], "defined coordinates", 
+      Cases[Global`data, (Global`s[Global`p:{__Integer}, 
+          paul`Omittable[_]] -> _) :> Global`p], {{__Integer}...}]; ]], 
+ "LanguageVersion" -> 10.4|>

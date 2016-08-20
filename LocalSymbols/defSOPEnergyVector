@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPEnergyVector[Global`p_Global`SparseOptimizationProblem], 
+      "with all data inserted", Global`SOPFullyAbstractObjectiveVector[
+        Global`p] /. Global`SOPDataAsRules[Global`p], 
+      _?numerics`NumericMatrixQ]; ]], "LanguageVersion" -> 10.4|>

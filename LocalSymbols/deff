@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[Global`x, Global`y, 
+      Global`z]; ClearAll[Global`f]; Global`f[Global`x] = 
+      {Global`x, Global`y, Global`z}; ]], "LanguageVersion" -> 10.4|>

@@ -1,0 +1,12 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[
+      GridData`GridDataMakeFromArrays, Global`Scene2DMake]; 
+     Global`trivialScene2DA = Table[1., 3, 3]; Global`trivialScene2DD = 
+      1.*{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}; Global`trivialScene2Dl = 
+      Normalize[{1., 1.}]; Global`trivialScene2DC = Table[1., 3, 3, 3]; 
+     Global`trivialScene2Dgd = GridData`GridDataMakeFromArrays[
+       {"a", "d", "doriginal", "c"}, {Global`trivialScene2DA, 
+        Global`trivialScene2DD, Global`trivialScene2DD, 
+        Global`trivialScene2DC}, 2]; Global`trivialScene2D = 
+      Global`Scene2DMake[Global`trivialScene2Dl, 
+       Global`trivialScene2Dgd]; ]], "LanguageVersion" -> 10.4|>

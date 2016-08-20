@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`FixedPointReplace[Global`expr_, Global`rest___], 
+     "behaves like ReplaceRepeated, but only on the specified level", 
+     FixedPoint[Replace[#1, Global`rest] & , Global`expr]]]], 
+ "LanguageVersion" -> 10.4|>

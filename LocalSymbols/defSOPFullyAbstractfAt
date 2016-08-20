@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`SOPFullyAbstractfAt[Global`SparseOptimizationProblem[Global`f_, 
+        Global`select_, Global`P_, Global`data_, Global`y_], Global`p_] /; 
+      paul`Contains[Global`P, Global`p], "abstract energy vector at a p", 
+     Global`f /. Global`select[Global`p], {__}]]], "LanguageVersion" -> 10.4|>

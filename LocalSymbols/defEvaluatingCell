@@ -1,4 +1,0 @@
-<|"Type" -> Expression, "Version" -> 1, 
- "Data" -> Hold[HoldComplete[Global`EvaluatingCell[] := 
-     (SelectionMove[EvaluationNotebook[], All, EvaluationCell]; 
-      NotebookRead[First[SelectedCells[]]])]], "LanguageVersion" -> 10.4|>

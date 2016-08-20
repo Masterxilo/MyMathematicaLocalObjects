@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[Cell[BoxData[RowBox[{"Persist", "[", 
+       RowBox[{"\"zz\"", ",", "Null"}], "]"}]], "Input", 
+    CellChangeTimes -> {{3.680609098754902*^9, 3.6806091027529173*^9}}]], 
+ "LanguageVersion" -> 10.4|>

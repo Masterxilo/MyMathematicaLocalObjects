@@ -1,0 +1,20 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`TestingNotebookHeldVerificationTests[], "make a list of Hold \
+VerificationTest items from the current testing notebook", 
+     SequenceCases[NotebookRead[Cells[]], 
+      {Global`i:Cell[___, "VerificationTest", ___], 
+        Global`o:Cell[___, "ExpectedOutput", ___], 
+        Global`m:Cell[___, "ExpectedMessage", ___]:Global`EmptyListInputCell, 
+        Global`p:Cell[___, "TestOptions", ___]:Global`EmptyListInputCell} :> 
+       With[{Global`input = Global`FlattenNull[ToExpression[First[Global`i], 
+            StandardForm, HoldComplete]], Global`output = 
+          Global`FlattenNull[ToExpression[First[Global`o], StandardForm, 
+            HoldComplete]], Global`messages = Global`FlattenNull[
+           ToExpression[First[Global`m], StandardForm, HoldComplete]], 
+         Global`options = Global`FlattenNull[ToExpression[First[Global`p], 
+            StandardForm, HoldComplete]]}, 
+        Hold[VerificationTest[Global`input, Global`output, Global`messages, 
+           Global`options]] /. {Verbatim[HoldComplete][Global`x_] :> 
+           Global`x, Verbatim[HoldComplete][Global`x__] :> 
+           (CompoundExpression[Global`x])}]]]]], "LanguageVersion" -> 10.4|>

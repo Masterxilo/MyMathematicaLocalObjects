@@ -8,5 +8,6 @@
                RowBox[{"{", RowBox[{"a", ",", "b"}], "}"}]}]}], ";", 
            "\[IndentingNewLine]", RowBox[{"Protect", "@", "FileNameJoin"}], 
            ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
-    CellChangeTimes -> {{3.6805685889863787*^9, 3.6805686568350487*^9}}]], 
- "LanguageVersion" -> 10.4|>
+    GeneratedCell -> True, CellAutoOverwrite -> True, 
+    CellChangeTimes -> {{3.6805685889863787*^9, 3.6805686568350487*^9}, 
+      3.6806188112499075*^9}]], "LanguageVersion" -> 10.4|>

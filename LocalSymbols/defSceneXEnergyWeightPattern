@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`NeedsDefined[
+      Global`SceneXEnergyWeightNames]; Global`SceneXEnergyWeightPattern[] := 
+      ((Pattern[#1, _] & ) /@ Global`SceneXEnergyWeightNames[])?
+       numerics`NumericVectorQ]], "LanguageVersion" -> 10.4|>

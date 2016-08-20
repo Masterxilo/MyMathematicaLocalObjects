@@ -1,0 +1,7 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SOPFullyAbstractObjectiveVector[Global`SparseOptimizationProblem[
+        Global`f_, Global`select_, Global`P_, Global`data_, Global`y_]], 
+      "List of all objective vectors with no data inserted", 
+      Table[Global`f /. Global`select[Global`p], {Global`p, Global`P}]]; ]], 
+ "LanguageVersion" -> 10.4|>

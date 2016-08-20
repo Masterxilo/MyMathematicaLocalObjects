@@ -1,0 +1,6 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`coordFlat[Global`s_Symbol, Global`bounds_], 
+     "creates symbols of the form produced by $SceneXAtomRuleNameConversion", 
+     Map[Global`s, CoordinateBoundsArray[Global`bounds], {-2}]]]], 
+ "LanguageVersion" -> 10.4|>

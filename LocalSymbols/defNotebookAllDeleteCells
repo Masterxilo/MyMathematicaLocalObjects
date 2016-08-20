@@ -1,0 +1,5 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[
+    Global`NotebookAllDeleteCells[Global`options___] := 
+      NotebookDelete[Flatten[(Cells[#1, Global`options] & ) /@ 
+         Notebooks[]]]; ]], "LanguageVersion" -> 10.4|>

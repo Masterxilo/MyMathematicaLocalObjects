@@ -1,9 +1,0 @@
-<|"Type" -> Expression, "Version" -> 1, 
- "Data" -> Hold[HoldComplete[ClearAll[Global`Persist]; 
-     SetAttributes[Global`Persist, HoldAll]; 
-     ReleaseHold[LocalSymbol["defEvaluatingCell"]]; 
-     Global`Persist[Global`n_String, Global`x_] := 
-      With[{Global`cell = Global`EvaluatingCell[]}, 
-       LocalSymbol[StringJoin["cell", Global`n]] = Global`cell; 
-        LocalSymbol[StringJoin["def", Global`n]] = HoldComplete[Global`x]; 
-        Global`x]; ]], "LanguageVersion" -> 10.4|>

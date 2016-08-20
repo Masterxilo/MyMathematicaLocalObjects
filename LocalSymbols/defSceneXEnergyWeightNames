@@ -1,0 +1,4 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[Global`SceneXEnergyWeightNames[] := 
+      {Global`eg, Global`er, Global`es, Global`ea}; ]], 
+ "LanguageVersion" -> 10.4|>

@@ -1,0 +1,8 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+      Global`SparseOptimizationProblemMake[Global`f:{__}, Global`select_, 
+        Global`p:{__}, Global`data:{_Rule..}, Global`y:{__}] /; 
+       ContainsAll[Keys[Global`data], Global`y], "stores all data necessary \
+for describing a SparseOptimization problem in the format covered here", 
+      Global`SparseOptimizationProblem[Global`f, Global`select, Global`p, 
+       Global`data, Global`y]]; ]], "LanguageVersion" -> 10.4|>

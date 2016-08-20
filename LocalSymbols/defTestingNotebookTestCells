@@ -1,0 +1,10 @@
+<|"Type" -> Expression, "Version" -> 1, 
+ "Data" -> Hold[HoldComplete[PackageDeveloper`RedefinePublicFunction[
+     Global`TestingNotebookTestCells[], "If the current notebook is a Testing \
+Notebook, this gives a list of Cell expression lists in groups of at most \
+four,\nwith styles in the order VerificationTest, ExpectedOutput, \
+ExpectedMessage, TestOptions where either of the final two can be omitted", 
+     SequenceCases[NotebookRead[Cells[]], {Cell[___, "VerificationTest", 
+        ___], Cell[___, "ExpectedOutput", ___], paul`Omittable[
+        Cell[___, "ExpectedMessage", ___]], paul`Omittable[
+        Cell[___, "TestOptions", ___]]}]]]], "LanguageVersion" -> 10.4|>
